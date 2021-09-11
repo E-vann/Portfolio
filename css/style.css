@@ -410,3 +410,9 @@ transition-duration: 500ms;
  .parcours{
      margin-bottom: 10%;
  }
+@media only screen and (max-width:500px) {
+html{ color: red;
+}   
+
+
+  }
