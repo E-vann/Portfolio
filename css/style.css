@@ -413,19 +413,20 @@ transition-duration: 500ms;
  @media only screen and (max-width:500px) {
 
 .home-image{
-    width: 100vw;
+    width: 150vw;
+    margin: 10vw;
 }
 .title {
-    margin-top: 70vw;
-    margin-left: 100vw;
-    width: 40%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     z-index: 99;
+    margin-left: 15vw;
 }
 .title>h1{
-    color: rgb(147,138,127);
-   font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    font-size: 70px;
+    margin: 0;
 }
-  }
+.vertical {
+    visibility: hidden;
+ }
+
+}
