@@ -102,14 +102,6 @@
      width: 40%;
      position: absolute;
      z-index: 99;
-     /* background: rgba( 255, 255, 255, 0.1 );
-     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur( 6.5px );
-     -webkit-backdrop-filter: blur( 6.5px );
-     border-radius: 10px;
-     border: 1px solid rgba( 255, 255, 255, 0.4 );     
-     padding : 3% 0 3% 3%;
-     border-radius: 50px; */
  }
  .title>h1{
      color: rgb(147,138,127);
@@ -378,9 +370,6 @@
      margin:0 40px 40px 40px;
      margin-bottom: 50px;
  }
- tr{
-
- }
  .description {
      display: flex;
  }
@@ -410,19 +399,28 @@ transition-duration: 500ms;
  .parcours{
      margin-bottom: 10%;
  }
-  @media only screen and (max-width:500px) {
+
+ @media only screen and (max-width:500px) {
+    
 p{
     font-size: 24px;
 }
-    header {
-        display: flex;
-        font-family: 'Raleway';
-        justify-content: space-between;
-        width: 150vw ;
-        font-size: 24px;
+header {
+    display: flex;
+    font-family: 'Raleway';
+    justify-content: space-between;
+    width: 150vw ;
+    font-size: 24px;
 
-    }
-
+}
+#circle {
+    width: 120%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    margin-left: 80vw;
+    margin-top: 130vw;
+    z-index: 99;
+}
    
 .home-image{
     width: 150vw;
@@ -437,6 +435,9 @@ p{
 .title>h1{
     margin: 0;
 }
+h3{
+    font-size: 26px;
+}
 .vertical {
     visibility: hidden;
  }
@@ -450,13 +451,49 @@ p{
 .images {
     width: 150vw;
     margin: 5w;
-
-
 }
 .projet{
     width: 150vw;
     margin: 10vw;
 
 }
+.projectnumber{
+    position: relative;
+    writing-mode: horizontal-tb;
+    margin: 0;
+
 }
+.texte{
+    margin-bottom: 20vh;
+}
+.bodyline{
+    width: 150vw;
+    margin-left: 10vw;
+}
+.icon{
+    width: 150vw;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+footer>.icon>a>i{
+font-size: 30pt;
+margin: 8vw;
+}
+.description{
+    display: block;
+}
+.text{
+    width: 120vw;
+}
+.mi{
+    width: 120vw;
+    height: 75vh;
+}
+table p{
+    font-size: 18px;
+width: 40vw;
+margin: 8vw;}
+
+}
+
  
