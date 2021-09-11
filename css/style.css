@@ -410,9 +410,22 @@ transition-duration: 500ms;
  .parcours{
      margin-bottom: 10%;
  }
-@media only screen and (max-width:500px) {
-html{ color: red;
-}   
+ @media only screen and (max-width:500px) {
 
-
+.home-image{
+    width: 100vw;
+}
+.title {
+    margin-top: 70vw;
+    margin-left: 100vw;
+    width: 40%;
+    position: absolute;
+    z-index: 99;
+}
+.title>h1{
+    color: rgb(147,138,127);
+   font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+}
   }
