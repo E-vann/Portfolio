@@ -410,8 +410,20 @@ transition-duration: 500ms;
  .parcours{
      margin-bottom: 10%;
  }
- @media only screen and (max-width:500px) {
+  @media only screen and (max-width:500px) {
+p{
+    font-size: 24px;
+}
+    header {
+        display: flex;
+        font-family: 'Raleway';
+        justify-content: space-between;
+        width: 150vw ;
+        font-size: 24px;
 
+    }
+
+   
 .home-image{
     width: 150vw;
     margin: 10vw;
@@ -428,5 +440,23 @@ transition-duration: 500ms;
 .vertical {
     visibility: hidden;
  }
+.projet{
+    display: block;
+}
+.images>img {
+    width: 150vw;
 
 }
+.images {
+    width: 150vw;
+    margin: 5w;
+
+
+}
+.projet{
+    width: 150vw;
+    margin: 10vw;
+
+}
+}
+ 
