@@ -37,9 +37,9 @@
      /* margin: 3vw; */
      color: #888888;
      /* border: 1px black solid; */
-     padding: 3%
+     padding: 3%;
  }
- 
+
  header>a:hover {
      color: #000000;
      transition-duration: 2s;
