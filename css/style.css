@@ -147,6 +147,9 @@
      text-decoration: none;
      color: black;
  }
+body{
+     scroll-behavior: smooth;
+ }
  /* cirlce */
  
  #container {
@@ -339,8 +342,7 @@
  }
  
  .mi {
-     width: 50vw;
-     height: 65vh;
+     width: 25vw;
      margin-left: 5vw;
      border-radius: 25px;
  }
@@ -503,7 +505,6 @@ footer>.icon>a>i{
 }
 .mi{
     width: 80vw;
-    height: 60vh;
     margin: 0;
 }
 table p{
