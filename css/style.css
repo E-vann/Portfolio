@@ -70,9 +70,20 @@
      width: 30vw;
      margin-left: 30vw;
  }
- 
+ .flaticon-up{
+     
+     position: fixed;
+     font-size: 25px;
+     
+ }
+ a>.flaticon-up{
+     margin-top: 78vh;
+     margin-left: 37vw;
+     color: #7a7a7a;
+ }
  #outils {
      display: flex;
+     flex-wrap: wrap;
  }
  
  #outils>p {
@@ -254,9 +265,9 @@
  }
  /* la position sticky doit être sur tout ton block (.texte) pas sur chaque enfant, sinon chaque enfant est sticky dans texte */
  
- .consulting>svg {
-     width: 40px;
-     ;
+ .consulting>i {
+     font-size: 30px;
+
  }
  strong{
      color: rgba(0, 0, 0, 0.6);
@@ -267,7 +278,7 @@
  
  .consulting>a {
      font-style: italic;
-     margin-top: 15px;
+     margin-top: 5px;
      margin-left: 1vw;
  }
  
@@ -296,6 +307,7 @@
      opacity: 80%;
      font-family: 'Raleway', 'sans-serif' ;     
      color: rgb(117, 111, 104);
+     flex-wrap: wrap;
  }
  
  .texte h3 {
@@ -417,8 +429,8 @@ header {
     width: 80%;
     padding-bottom: 100%;
     overflow: hidden;
-    margin-left: 40vw;
-    margin-top: 40vw;
+    margin-left: 10vw;
+    margin-top: 50vw;
     z-index: 99;
 }
    
@@ -491,14 +503,16 @@ footer>.icon>a>i{
 }
 .mi{
     width: 80vw;
-    height: 50vh;
+    height: 60vh;
     margin: 0;
 }
 table p{
     font-size: 12px;
 width: 25vw;
 margin: 2vw;}
-
+td{
+    font-size: 10pt;
+}
 }
 .text>h1 {
     font-size: 40pt;
