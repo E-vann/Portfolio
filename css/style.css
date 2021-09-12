@@ -38,6 +38,7 @@
      color: #888888;
      /* border: 1px black solid; */
      padding: 3%;
+
  }
 
  header>a:hover {
@@ -81,12 +82,12 @@
      margin-left: 37vw;
      color: #7a7a7a;
  }
- #outils {
+ .outils {
      display: flex;
      flex-wrap: wrap;
  }
  
- #outils>p {
+ .outils>p {
      background-color: #f1ebe9;
      /* border: black solid 1px; */
      border-radius: 10px;
@@ -425,6 +426,7 @@ header {
     justify-content: space-between;
     width: 100vw ;
     font-size: 16px;
+    position: fixed;
 
 }
 #circle {
